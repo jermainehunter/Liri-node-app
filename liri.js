@@ -46,11 +46,7 @@ switch (command) {
     console.log(`I don't understand!`)
 }
 
-/////////////////////////////////////////// 
-// var spotify = new Spotify({
-//   id: "2381992fb9344a2896cf7af6021c146c",
-//   secret: "39fe8a7881fb4fc3bfea75a4b088df36"
-// });
+
 
 //creating the function song ()
 function song(song = "The Sign Ace of Base") {
@@ -78,7 +74,8 @@ function movie(movie = "Mr. Nobody") {
     function (response) {
 
       console.log("The movie's title is: " + response.data.Title);
-      console.log("Year the movie came out: " + response.data.Released);
+      console.log("Year the movie came out: " + response.
+      data.Released);
       console.log("IMDB Rating of the movie: " + response.data.imdbRating);
       console.log("Rotten Tomatoes Rating of the movie: " + response.data.Ratings[1].Value);
       console.log("Country where the movie was produced: " + response.data.Country);
