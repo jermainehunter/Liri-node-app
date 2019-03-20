@@ -79,15 +79,14 @@ function movie(movie = "Mr. Nobody") {
   axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
     function (response) {
 
-      console.log("The movie's title is: " + response.data.Title);
-      console.log("Year the movie came out: " + response.
-      data.Released);
-      console.log("IMDB Rating of the movie: " + response.data.imdbRating);
-      console.log("Rotten Tomatoes Rating of the movie: " + response.data.Ratings[1].Value);
-      console.log("Country where the movie was produced: " + response.data.Country);
-      console.log("Language of the movie: " + response.data.Language);
-      console.log("Plot of the movie: " + response.data.Plot);
-      console.log("Actors in the movie: " + response.data.Actors);
+      console.log(`The movie(s) title is: ${response.data.Title}`);
+      console.log(`Year the movie came out: ${response.data.Released}`);
+      console.log(`IMDB Rating of the movie: ${response.data.imdbRating}`);
+      console.log(`Rotten Tomatoes Rating of the movie: ${response.data.Ratings[1].Value}`);
+      console.log(`Country where the movie was produced: ${response.data.Country}`);
+      console.log(`Language of the movie: ${response.data.Language}`);
+      console.log(`Plot of the movie: ${response.data.Plot}`);
+      console.log(`Actors in the movie: ${response.data.Actors}`);
     }
   );
 }
@@ -100,8 +99,8 @@ function bands(bands = "Stevie") {
   axios.get("https://rest.bandsintown.com/artists/" + bands + "/events?app_id=codingbootcamp").then(
     function (response) {
       for (var i = 0; i < response.data.length; i++) {
-        console.log(response.data[i].venue.name);
-        console.log(response.data[i].venue.city);
+        console.log(`Music Venue: ${response.data[i].venue.name}`);
+        console.log(`Venue City: ${response.data[i].venue.city}`);
         console.log(moment(response.data[i].datetime).format("MM/DD/YYYY"));
         console.log(`|--------------------|`);
       }
