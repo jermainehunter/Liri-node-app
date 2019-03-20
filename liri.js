@@ -1,4 +1,9 @@
 /////////////////////////////
+
+// ADDED THE LIRI NODE HOMEWORK TO MY PORTFOLIO
+//CHECK IT OUT... https://jermainehunter.github.io/Bootstrap-Portfolio/portfolio.html
+
+
 require('dotenv').config();
 //Global Variables 
 var keys = require('./keys.js');
