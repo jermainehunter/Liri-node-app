@@ -53,3 +53,15 @@ Song Name: I Want It That Way
 Spotify Preview Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6 
 Album: The Hits--Chapter One
 --------------------
+Used spotify-this-song to find: 
+Artist: Joe Sample 
+Song Name: A Rainy Day In Monterey 
+Spotify Preview Link: https://open.spotify.com/track/6MqT5xhjkzwV1HggGWUtwg 
+Album: Carmel
+--------------------
+Used spotify-this-song to find: 
+Artist: Backstreet Boys 
+Song Name: I Want It That Way 
+Spotify Preview Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6 
+Album: The Hits--Chapter One
+--------------------
